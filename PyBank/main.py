@@ -99,7 +99,7 @@ Greatest Decrease in Profits: {min_month} (${min_change})
 # Export the final results to a text file
 # -----------------------------------------------------------------------------------------
 
-output_path = os.path.join("financial_analysis.txt")
+output_path = os.path.join("analysis" ,"financial_analysis.txt")
 with open(output_path, 'w') as txtfile:
     txtfile.write(f'''
 Financial Analysis
